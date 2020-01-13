@@ -5,6 +5,8 @@ date:   2019-06-06 10:28:20 +0100
 categories: web coding
 ---
 
+<img src="/assets/images/unistation-screen.png" />
+
 This project consists of a website for a food delivery service.
 I made it together with 3 other people as a group project part of the Web
 Technologies course at the University of Bologna.
