@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bruteforce"
+title:  "AES-bruteforce"
 date:   2019-12-20 10:28:20 +0100
 categories: hacking coding
 ---
