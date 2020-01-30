@@ -13,3 +13,22 @@
   float: right;
   margin-left: 5px;
 }
+
+/* gallery */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
