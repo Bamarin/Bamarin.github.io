@@ -35,6 +35,11 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 show_excerpts: true
+header_pages:
+  - about.md
+  - artist.md
+  - developer.md
+  - resume.md
 
 
 # Exclude from processing.
