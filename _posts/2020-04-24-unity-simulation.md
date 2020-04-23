@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Environmental"
+title:  "Environmental simulation in Unity"
 date:   2020-04-24 13:00:42 +0100
 categories: unity coding visualization 3D
 ---
 
 PLACEHOLDER
-#<img src="/assets/images/fag-screen.png" />
+<!-- <img src="/assets/images/fag-screen.png" />
 #
 #This videogame was a project for the Object Oriented Programming course at
 #University of Bologna. 
@@ -15,4 +15,5 @@ PLACEHOLDER
 #* Type of project: videogame
 #* Repository: [Bitbucket](https://bitbucket.org/goffo/oop17-fag/src/master/src/main/resources/assets/)
 #* Download: [https://bitbucket.org/goffo/oop17-fag/downloads/](https://bitbucket.org/goffo/oop17-fag/downloads/)
+-->
 
