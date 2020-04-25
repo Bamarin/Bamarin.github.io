@@ -18,7 +18,7 @@ They are divided into Artist and Developer categories to keep them nicely separa
   <a target="_blank" href="https://www.instagram.com/bamarin_it/">
     <img src="/assets/images/banner-insta.png" alt="Instagram">
   </a>
-  <a target="_blank" href="https://https://www.twitch.tv/bamarin">
+  <a target="_blank" href="https://www.twitch.tv/bamarin">
     <img src="/assets/images/banner-twitch.png" alt="Twitch">
   </a>
   <a target="_blank" href="https://www.youtube.com/channel/UCorVSNWpkh9vz0hBSFOm7cA">
