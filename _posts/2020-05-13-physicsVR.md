@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[PhysicsVR] Tools"
-date:   2020-05-07 14:24:35 +0100
+date:   2020-05-13 14:24:35 +0100
 categories: VR gamedev unity physics
 ---
 With the force-based hands working, implementing tools is as simple as
