@@ -5,7 +5,7 @@ date:   2020-05-13 14:24:35 +0100
 categories: VR gamedev unity physics
 ---
 
-<video autoplay>
+<video width="320" height="240" autoplay>
   <source src="assets/videos/hand-animation.webm" type="video/webm">
   Your browser does not support videos
 </video>
@@ -19,7 +19,7 @@ fingers around an object, to grab it, I want them to stay in place. Using
 object transformations instead I have control over the current rotation and
 this also avoids unnatural positions of the fingers.
 
-I therfore created and `hand` and `finger` class and builded a simple hand object.
+I therfore created `hand` and `finger` classes, and builded a simple hand object.
 and achieved the result shown in the animation above.
 The hand is currently working in the following way:
 
