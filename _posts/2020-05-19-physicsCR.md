@@ -10,6 +10,10 @@ categories: VR gamedev unity physics
   Your browser does not support videos
 </video>
 
+<video width="320" height="200" controls preload> 
+    <source src="assets/videos/hand-animation.webm"></source> 
+</video>
+
 <iframe width="560" height="315" src="assets/videos/hand-animation.webm" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 I have spent the past days implementing the animations of the fingers to physically interact with the obects.
