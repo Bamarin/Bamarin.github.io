@@ -2,7 +2,7 @@
 layout: post
 title:  "Environmental simulation in Unity"
 date:   2020-04-24 13:00:42 +0100
-categories: unity coding visualization 3D
+tags: unity coding visualization 3D
 ---
 
 ## Introduction

@@ -2,7 +2,7 @@
 layout: post
 title:  "AES-bruteforce"
 date:   2019-12-20 10:28:20 +0100
-categories: hacking coding
+tags: hacking coding
 ---
 
 Simple program to brute force an AES-128 password given some useful infomations
