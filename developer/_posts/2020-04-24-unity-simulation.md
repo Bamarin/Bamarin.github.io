@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Environmental simulation in Unity"
+title:  "Behavioral simulation in Unity"
 date:   2020-04-24 13:00:42 +0100
 tags: unity coding visualization 3D
 ---
