@@ -18,7 +18,7 @@ cover: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6006e9c8-d36e-
 
 <div class="gallery">
   <a target="_blank" href="{{ page.dice-anim }}">
-    <img src="{{ page.dice-cover }}" alt="Topology of the Mecha D10" width="600" height="400">
+    <img src="{{ page.dice-cover }}" alt="Animation of the Mecha D10" width="600" height="400">
   </a>
 </div>
 
