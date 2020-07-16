@@ -21,8 +21,10 @@
 title: Bamarin
 email: leonardo.marini.it@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Leonardo "Bamarin" Marini personal website.
+  Designed by Bamarin.
   Made with Jekill.
+  https://github.com/Bamarin/Bamarin.github.io
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: leonardopaolo21

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: projects
 title: Developer
 permalink: /developer/
 list_title: Projects

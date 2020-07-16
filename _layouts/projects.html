@@ -1,17 +1,19 @@
 ---
-layout: default-enanced
+layout: default
 ---
 
 <div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
 
-  <div class="headline">
   {{ content }}
-  </div>
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.categories.physicsVR -%}
+      {%- for post in site.categories.physicsVR reversed -%}
+      {%- if forloop.first -%}
       <li style="clear:both;" >
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -22,7 +24,7 @@ layout: default-enanced
         
         {%- endfor -%}
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="post-link" href="physicsVR">
             {{ post.title | escape }}
           </a>
         </h3>
@@ -31,6 +33,7 @@ layout: default-enanced
           {{ post.excerpt }}
         {%- endif -%}
       </li>
+      {%- endif -%}
       {%- endfor -%}
       {%- for post in site.categories.developer -%}
       <li style="clear:both;" >
