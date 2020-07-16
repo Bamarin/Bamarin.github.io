@@ -25,9 +25,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Made with Jekill.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: leonardo-marini-it
+facebook_username: leonardopaolo21
 github_username: Bamarin
 instagram_username: bamarin_it
+linkedin_username: leonardo-marini-it
+youtube_username: TheMaui97
 google_analytics: UA-169225375-1
 
 # Build settings

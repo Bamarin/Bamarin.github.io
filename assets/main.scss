@@ -32,6 +32,15 @@ div.gallery img {
   object-fit: cover;
 }
 
+div.header-social ul{ 
+  float: right;
+  margin-left: 20px;
+  li{
+  display: inline;
+  margin-right: 20px;
+}
+}
+
 div.socials img {
   margin-top: 5px;
 }
