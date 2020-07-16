@@ -2,10 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+video: "https://cdn-animation.artstation.com/p/video_sources/000/085/612/0001-1050.mp4"
+layout: home
 ---
-<img src="/assets/images/avatar-small.png" />
-# Welcome to my personal website
-Here I keep all of my works, organized in one single virtual space.
+# Leonardo Marini
+## Computer Science Engineering Student
+## Tech-Artist
 
-They are divided into Artist and Developer categories to keep them nicely separated.

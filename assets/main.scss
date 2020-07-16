@@ -32,17 +32,27 @@ div.gallery img {
   object-fit: cover;
 }
 
-div.header-social ul{ 
+ul.social-media-list{ 
   float: right;
+  padding: 0px 0px 0px 0px;
   margin-left: 20px;
-  li{
-  display: inline;
-  margin-right: 20px;
 }
+ul.social-media-list li{
+    display: inline;
+    margin-right: 20px;
+  }
+
+video.video-bg{
+//div#xxx{
+display:block;
+width:100%;
+min-width: 500px;
+overflow-x: hidden;
 }
 
-div.socials img {
-  margin-top: 5px;
+div.headline {
+  position: absolute;
+  top: 100px;
 }
 
 // Adds support for a video holder

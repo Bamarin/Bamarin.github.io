@@ -5,7 +5,7 @@ date:   2020-05-19 14:24:35 +0100
 tags: VR gamedev unity physics
 ---
 
-<video style="float:left; width:30%; height:auto; margin-right:20px" autoplay controls loop="loop">
+<video style="float:left; width:30%; height:auto; margin-right:20px" autoplay loop="loop">
   <source src="/assets/videos/hand-animation.mp4" type="video/mp4"  />
 </video>
 I have spent the past days implementing the animations of the fingers to physically interact with the obects.
