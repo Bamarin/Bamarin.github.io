@@ -32,6 +32,9 @@ div.gallery img {
   object-fit: cover;
 }
 
+.site-nav {
+  z-index: 10;
+}
 ul.social-media-list{ 
   float: right;
   padding: 0px 0px 0px 0px;
@@ -43,7 +46,6 @@ ul.social-media-list li{
   }
 
 video.video-bg{
-//div#xxx{
 display:block;
 width:100%;
 min-width: 500px;
