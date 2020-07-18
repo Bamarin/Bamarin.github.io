@@ -41,8 +41,8 @@ plugins:
 show_excerpts: true
 header_pages:
   - about.md
-  - artist.md
-  - developer.md
+  - blog.md
+  - gallery.md
   - resume.md
 
 

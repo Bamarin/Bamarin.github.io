@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Developer
+title: Blog
 permalink: /developer/
 list_title: Projects
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Artist
+title: Gallery
 permalink: /artist/
 dice-cover: "https://cdna.artstation.com/p/assets/covers/images/028/080/500/smaller_square/leonardo-marini-leonardo-marini-cover.jpg?1593438585"
 dice-anim: "https://cdn-animation.artstation.com/p/video_sources/000/085/612/0001-1050.mp4"
