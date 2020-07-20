@@ -4,9 +4,9 @@
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         {%- for tag in post.tags -%}
-        <div class="tag">
+        <a href="/tag/{{ tag }}" class="tag">
           {{ tag }}
-        </div>
+        </a>
         
         {%- endfor -%}
         <h3>
