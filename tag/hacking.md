@@ -6,5 +6,5 @@ list_title: Related posts
 ---
 
 {%- assign posts = site.tags.hacking -%}
-{% include related.html content=posts %}
+{% include related.html postlist=posts %}
 

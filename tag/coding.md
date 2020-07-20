@@ -6,5 +6,5 @@ list_title: Related posts
 ---
 
 {%- assign posts = site.tags.coding -%}
-{% include related.html content=posts %}
+{% include related.html postlist=posts %}
 
