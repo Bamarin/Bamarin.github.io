@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Physical Interaction Model for Virtual Reality
-permalink: /developer/physicsVR
+permalink: /physicsVR
 list_title: Posts
 ---
 
