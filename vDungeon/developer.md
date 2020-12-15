@@ -5,6 +5,28 @@ permalink: /VDungeon
 list_title: Posts
 ---
 
-# Work in progress
+![banner](/assets/images/vdungeon/title.png)
 
-This page is a little bit empty at the moment...
+# [Download](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and Installation
+Download the application by clicking on the link that will take you to the [repository's releases section](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and downloading the latest release (`VDungeon.zip`).
+
+Run the file named `VDungeon.exe`, then chose either Master (you will host the game) or player (you will be asked the IP of an host).
+Enjoy!
+
+# The team
+
+![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]
+---|---|---
+Leonardo Marini | Michael Mathsson | Guilherme Diegoli Neto | Yuwen Hu | Ziqi "Cecilia" Xia
+
+
+
+[leonardo]: /assets/images/vdungeon/leonardo.jpg
+[michael]: /assets/images/vdungeon/michael.jpg
+[guilherme]: /assets/images/vdungeon/guilherme.jpg
+[yuwen]: /assets/images/vdungeon/yuwen.jpg
+[cecilia]: /assets/images/vdungeon/cecilia.jpg
+
+
+
+
