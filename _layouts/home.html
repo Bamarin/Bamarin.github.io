@@ -11,6 +11,10 @@ layout: default-enanced
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
+
+      <h2> <a href="/VDungeon"> VDungeon </a> </h2>
+      <img src="/assets/images/vdungeon/title.png" />
+
       {%- assign posts = site.categories.physicsVR -%}
       {% include related.html postlist=posts %}
       {%- assign posts = site.categories.developer -%}
