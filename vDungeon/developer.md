@@ -17,9 +17,12 @@ Enjoy!
 
 # The team
 
-![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]
----|---|---
 Leonardo Marini | Michael Mathsson | Guilherme Diegoli Neto | Yuwen Hu | Ziqi "Cecilia" Xia
+---|---|---
+![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]
+Multiplayer programmer||||
+Web developer||||
+
 
 
 
