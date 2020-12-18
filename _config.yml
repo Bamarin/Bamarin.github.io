@@ -65,6 +65,8 @@ show_excerpts: true
 collections:
   authors:
     output: true
+  projects:
+    output: true
 
 defaults:
   - scope:
@@ -72,6 +74,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
   - scope:
       path: ""
       type: "posts"

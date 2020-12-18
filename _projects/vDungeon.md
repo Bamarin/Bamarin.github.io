@@ -1,5 +1,4 @@
 ---
-layout: default
 title: VDungeon
 permalink: /VDungeon
 list_title: Posts
