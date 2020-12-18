@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Leonardo Marini
 permalink: /VDungeon/leonardo
 ---
