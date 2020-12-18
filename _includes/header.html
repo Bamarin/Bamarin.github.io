@@ -19,7 +19,7 @@ The nav is loaded from the file _data/navigation
 
       <div class="trigger">
         {%- for item in site.data.navigation -%}
-          <a class="page-link" href="{{ item.link }}">{{ item.name }}</a>
+          <a class="page-link {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}" >{{ item.name }}</a>
         {%- endfor -%}
       </div>
     </nav>
