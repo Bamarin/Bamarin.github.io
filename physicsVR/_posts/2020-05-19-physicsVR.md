@@ -2,11 +2,12 @@
 layout: post
 title:  "[PhysicsVR] Fingers interaction"
 date:   2020-05-19 14:24:35 +0100
+video: "/assets/videos/hand-animation.mp4"
 tags: VR gamedev unity physics
 ---
 
-<video style="float:left; width:30%; height:auto; margin-right:20px" autoplay loop="loop">
-  <source src="/assets/videos/hand-animation.mp4" type="video/mp4"  />
+<video style="float:left; width:30%; height:auto; margin-right:20px" autoplay muted loop="loop">
+  <source src="{{ page.video }}" type="video/mp4"  />
 </video>
 I have spent the past days implementing the animations of the fingers to physically interact with the obects.
 In this case an animator isn't useful at all because the finger should fit objects of different shapes.
