@@ -15,9 +15,7 @@ layout: default-enanced
       <h2> <a href="/VDungeon"> VDungeon </a> </h2>
       <img src="/assets/images/vdungeon/title.png" />
 
-      {%- assign posts = site.categories.physicsVR -%}
-      {% include related.html postlist=posts %}
-      {%- assign posts = site.categories.developer -%}
+      {%- assign posts = site.posts -%}
       {% include related.html postlist=posts %}
     </ul>
 

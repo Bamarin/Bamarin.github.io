@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Space Wanderers"
 date:   2019-12-12 13:37:42 +0100
 tags: 3D graphics animation
