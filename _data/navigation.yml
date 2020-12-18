@@ -1,0 +1,8 @@
+- name: About
+  link: /about/
+- name: DevBlog
+  link: /developer/
+- name: Gallery
+  link: /artist/
+- name: Resume
+  link: /assets/doc/CV.pdf
