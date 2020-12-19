@@ -17,6 +17,19 @@ Enjoy!
 
 # The team
 
+<ul>
+{% for member in site.team_members %}
+  <li>
+    <a href="{{member.url}}">
+      <figure style="float:left; margin:0 20px">
+        <img src="{{member.portrait}}" alt="{{member.name}}" style="width:200px">
+        <figcaption>Leonardo Marini</figcaption>
+      </figure> 
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
 [Leonardo Marini](/VDungeon/leonardo) | Michael Mathsson | [Guilherme Diegoli Neto](/VDungeon/guilherme) | Yuwen Hu | Ziqi "Cecilia" Xia
 ---|---|---
 ![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]

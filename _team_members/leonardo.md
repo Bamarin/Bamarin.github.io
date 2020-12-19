@@ -1,6 +1,7 @@
 ---
-title: Leonardo Marini
+name: Leonardo Marini
 permalink: /VDungeon/leonardo
+portrait: "/assets/images/vdungeon/leonardo.jpg"
 ---
 
 
