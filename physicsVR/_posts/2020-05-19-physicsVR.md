@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[PhysicsVR] Fingers interaction"
 date:   2020-05-19 14:24:35 +0100
 video: "/assets/videos/hand-animation.mp4"

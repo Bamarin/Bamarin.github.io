@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "[PhysicsVR] Handles"
 date:   2020-05-20 14:24:35 +0100
 tags: VR gamedev unity physics

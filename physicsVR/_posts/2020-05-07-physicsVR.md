@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "PhysicsVR: Spring and Grab"
 date:   2020-05-07 08:50:50 +0100
 tags: VR gamedev unity physics

@@ -1,13 +1,13 @@
 ---
-layout: default
 title: VDungeon
+code: VDungeon
+category: vDungeon
 permalink: /VDungeon
+banner: "/assets/images/vdungeon/title.png"
 list_title: Posts
 ---
 
-![banner](/assets/images/vdungeon/title.png)
-
-<iframe src="https://drive.google.com/file/d/1vWwAvstuZiCn9L2g9PVEvxkBK_8MLckx/preview" width="100%" height="450px"></iframe>
+<iframe src="https://drive.google.com/file/d/1vWwAvstuZiCn9L2g9PVEvxkBK_8MLckx/preview" width="100%" height="450px" allowfullscreen></iframe>
 
 # [Download](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and Installation
 Download the application by clicking on the link that will take you to the [repository's releases section](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and downloading the latest release (`VDungeon.zip`).

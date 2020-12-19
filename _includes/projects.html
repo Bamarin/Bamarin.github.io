@@ -1,0 +1,7 @@
+<h1>Projects</h1>
+
+  {% for project in site.projects %}
+      <a href="{{project.url}}">
+        <img style="margin: 20px 0px" src={{project.banner}} />
+      </a>
+  {% endfor %}

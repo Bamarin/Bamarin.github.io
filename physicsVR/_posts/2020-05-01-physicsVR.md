@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Physical Interaction Model for Virtual Reality"
 date:   2020-05-01 13:38:17 +0100
 tags: VR gamedev unity physics
