@@ -1,4 +1,4 @@
 ---
 name: Guilherme Diegoli Neto
-roles: Environment design, level editor
+permalink: /VDungeon/guilherme
 ---

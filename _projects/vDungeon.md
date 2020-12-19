@@ -17,7 +17,7 @@ Enjoy!
 
 # The team
 
-[Leonardo Marini](/VDungeon/leonardo) | Michael Mathsson | Guilherme Diegoli Neto | Yuwen Hu | Ziqi "Cecilia" Xia
+[Leonardo Marini](/VDungeon/leonardo) | Michael Mathsson | [Guilherme Diegoli Neto](/VDungeon/guilherme) | Yuwen Hu | Ziqi "Cecilia" Xia
 ---|---|---
 ![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]
 Multiplayer programmer||||
