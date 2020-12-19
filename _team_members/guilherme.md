@@ -1,6 +1,7 @@
 ---
-title: Guilherme Diegoli Neto
+name: Guilherme Diegoli Neto
 permalink: /VDungeon/guilherme
+portrait: "/assets/images/vdungeon/guilherme.jpg"
 ---
 
 

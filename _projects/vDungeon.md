@@ -23,18 +23,18 @@ Enjoy!
     <a href="{{member.url}}">
       <figure style="float:left; margin:0 20px">
         <img src="{{member.portrait}}" alt="{{member.name}}" style="width:200px">
-        <figcaption>Leonardo Marini</figcaption>
+        <figcaption>{{member.name}}</figcaption>
       </figure> 
     </a>
   </li>
 {% endfor %}
 </ul>
 
-[Leonardo Marini](/VDungeon/leonardo) | Michael Mathsson | [Guilherme Diegoli Neto](/VDungeon/guilherme) | Yuwen Hu | Ziqi "Cecilia" Xia
+[Leonardo Marini](/VDungeon/leonardo) | [Michael Mathsson](/VDungeon/michael) | [Guilherme Diegoli Neto](/VDungeon/guilherme) | Yuwen Hu | [Ziqi Xia](/VDungeon/cecilia)
 ---|---|---
 ![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]
-Multiplayer programmer||Grid and World Editor||
-Web developer||Environment Design||
+Multiplayer programmer||Grid and World Editor||Face tracking developer
+Web developer||Environment Design||Dice system for gameplay
 
 
 
