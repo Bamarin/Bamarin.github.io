@@ -8,17 +8,13 @@ layout: default-enanced
   {{ content }}
   </div>
 
+  {% include projects.html %}
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-
-      <h2> <a href="/VDungeon"> VDungeon </a> </h2>
-      <img src="/assets/images/vdungeon/title.png" />
-
-      {%- assign posts = site.posts -%}
-      {% include related.html postlist=posts %}
-    </ul>
-
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <ul class="post-list">
+    {%- assign posts = site.posts -%}
+    {% include related.html postlist=posts top=5 %}
+  </ul>
   {%- endif -%}
 
 </div>
