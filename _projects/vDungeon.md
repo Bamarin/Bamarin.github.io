@@ -17,11 +17,11 @@ Enjoy!
 
 # The team
 
-[Leonardo Marini](/VDungeon/leonardo) | Michael Mathsson | [Guilherme Diegoli Neto](/VDungeon/guilherme) | Yuwen Hu | Ziqi "Cecilia" Xia
+[Leonardo Marini](/VDungeon/leonardo) | Michael Mathsson | [Guilherme Diegoli Neto](/VDungeon/guilherme) | Yuwen Hu | [Ziqi Xia](/VDungeon/cecilia)
 ---|---|---
 ![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]
-Multiplayer programmer||Grid and World Editor||
-Web developer||Environment Design||
+Multiplayer programmer||Grid and World Editor||Face tracking developer
+Web developer||Environment Design||Dice system for gameplay
 
 
 
