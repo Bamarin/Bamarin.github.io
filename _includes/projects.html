@@ -3,8 +3,9 @@
 <ul>
   {% for project in site.projects %}
     <li>
-      <h2><a href="{{project.url}}">{{ project.title }}</a></h2>
-      <h3>{{ project.tags }}</h3>
+      <a href="{{project.url}}">
+        <img src={{project.banner}} />
+      </a>
     </li>
   {% endfor %}
 </ul>
