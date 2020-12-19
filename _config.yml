@@ -63,7 +63,7 @@ show_excerpts: true
 
 
 collections:
-  authors:
+  team_members:
     output: true
   projects:
     output: true
@@ -71,9 +71,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "team_members"
     values:
-      layout: "author"
+      layout: "member"
   - scope:
       path: ""
       type: "projects"
