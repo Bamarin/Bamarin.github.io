@@ -10,9 +10,13 @@
 
     <main>
       {%- if page.bg -%}
+      <div class="parallax-container">
+        <div class="parallax">
           <video class="video-bg" autoplay muted loop="loop">
             <source src="{{ page.bg }}" type="{{ page.bg-type }}"  />
           </video>
+        </div>
+      </div>
       {%- endif -%}
 
       <div class="container">
@@ -21,5 +25,11 @@
     </main>
 
     {%- include footer.html -%}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems, options);
+    });
+  </script>
   </body>
 </html>
