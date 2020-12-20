@@ -2,15 +2,21 @@
 The nav items are loaded from the file _data/navigation
 {% endcomment %}
 <header class="site-header" role="banner">
-  <nav>
+  <nav class="nav-extended">
     <div class="nav-wrapper">
       <a class="brand-logo" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       {%- for item in site.data.navigation -%}
-        <li>
-          <a class="page-link {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}" >{{ item.name }}</a>
-        </li>
+        <li><a class="page-link {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}" >{{ item.name }}</a></li>
       {%- endfor -%}
+      </ul>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="#test1">Test 1</a></li>
+        <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+        <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+        <li class="tab"><a href="#test4">Test 4</a></li>
       </ul>
     </div>
   </nav>
