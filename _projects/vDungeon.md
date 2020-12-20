@@ -18,7 +18,7 @@ Enjoy!
 # The team
 
 
-  <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+  <div class="card-panel ilike-blue-container">This is a card panel with a teal lighten-2 class</div>
             
 <ul>
 {% for member in site.team_members %}

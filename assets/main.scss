@@ -3,8 +3,10 @@
 ---
 
 @import "materialize";
-@import "minima";
-@import "cards";
+
+.ilike-blue-container {
+  @extend .blue, .lighten-4;
+}
 
 .tag {
   display: inline;
