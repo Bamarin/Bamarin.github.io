@@ -4,10 +4,6 @@
 
 @import "materialize";
 
-.ilike-blue-container {
-  @extend .blue, .lighten-4;
-}
-
 .tag {
   display: inline;
   background-color: grey;
