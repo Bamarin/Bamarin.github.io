@@ -17,9 +17,12 @@ Enjoy!
 
 # The team
 
+
+  <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+            
 <ul>
 {% for member in site.team_members %}
-  <li>
+  <li class="card" >
     <a href="{{member.url}}">
       <figure style="float:left; margin:0 20px">
         <img src="{{member.portrait}}" alt="{{member.name}}" style="width:200px">

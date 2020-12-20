@@ -2,7 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import "materialize";
 @import "minima";
+@import "cards";
 
 .tag {
   display: inline;
@@ -92,3 +94,4 @@ div.headline {
   width : 100%;
   height : 100%;
 }
+
