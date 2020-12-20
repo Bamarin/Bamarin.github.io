@@ -30,15 +30,13 @@ Enjoy!
       <div class="card-content">
         <span class="card-title activator">{{member.name}}<i class="material-icons right">arrow_drop_up</i></span>
       </div>
-      <div class="card-reveal">
+      <div class="card-reveal blue-grey darken-1">
         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">arrow_drop_down</i></span>
-        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <p>{{member.content}}</p>
       </div>
     </div>
   </div>
 {% endfor %}
 </div>
-
-
 
 
