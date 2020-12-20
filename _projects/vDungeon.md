@@ -9,40 +9,35 @@ list_title: Posts
 ---
 
 
-# [Download](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and Installation
+#### [Download](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and Installation
 Download the application by clicking on the link that will take you to the [repository's releases section](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and downloading the latest release (`VDungeon.zip`).
 
 Run the file named `VDungeon.exe`, then chose either Master (you will host the game) or player (you will be asked the IP of an host).
 Enjoy!
 
-# The team
+#### The team
 
-<ul>
+<div class="row">
+  <div class="col s12 m1">
+  </div>
+
 {% for member in site.team_members %}
-  <li class="card" >
-    <a href="{{member.url}}">
-      <figure style="float:left; margin:0 20px">
-        <img src="{{member.portrait}}" alt="{{member.name}}" style="width:200px">
-        <figcaption>{{member.name}}</figcaption>
-      </figure> 
-    </a>
-  </li>
+  <div class="col s12 m2">
+    <div class="card blue-grey darken-1">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="{{member.portrait}}" alt="{{member.name}}">
+      </div>
+      <div class="card-content">
+        <span class="card-title activator">{{member.name}}<i class="material-icons right">arrow_drop_up</i></span>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">arrow_drop_down</i></span>
+        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+      </div>
+    </div>
+  </div>
 {% endfor %}
-</ul>
-
-[Leonardo Marini](/VDungeon/leonardo) | [Michael Mathsson](/VDungeon/michael) | [Guilherme Diegoli Neto](/VDungeon/guilherme) | Yuwen Hu | [Ziqi Xia](/VDungeon/cecilia)
----|---|---
-![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]
-Multiplayer programmer||Grid and World Editor||Face tracking developer
-Web developer||Environment Design||Dice system for gameplay
-
-
-
-[leonardo]: /assets/images/vdungeon/leonardo.jpg
-[michael]: /assets/images/vdungeon/michael.jpg
-[guilherme]: /assets/images/vdungeon/guilherme.jpg
-[yuwen]: /assets/images/vdungeon/yuwen.jpg
-[cecilia]: /assets/images/vdungeon/cecilia.jpg
+</div>
 
 
 
