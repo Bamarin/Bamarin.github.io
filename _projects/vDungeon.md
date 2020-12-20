@@ -20,8 +20,8 @@ Enjoy!
 [Leonardo Marini](/VDungeon/leonardo) | [Michael Mathsson](/VDungeon/michael) | [Guilherme Diegoli Neto](/VDungeon/guilherme) | [Yuwen Hu](/VDungeon/yuwen) | [Ziqi Xia](/VDungeon/cecilia)
 ---|---|---
 ![Leonardo][leonardo] | ![Michael][michael] | ![Guilherme][guilherme] | ![Yuwen][yuwen] | ![Cecilia][cecilia]
-Multiplayer Programmer||Grid and World Editor|UI Designer|Face Tracking Developer
-Web Developer||Environment Design|Game Control Developer|Dice System for Gameplay
+Multiplayer Programmer|Animation|Grid and World Editor|UI Designer|Face Tracking Developer
+Web Developer|Rigging|Environment Design|Game Control Developer|Dice System for Gameplay
 
 
 
