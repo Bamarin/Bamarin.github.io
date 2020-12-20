@@ -9,7 +9,15 @@
     {%- include header.html -%}
 
     <main>
+      {%- if page.bg -%}
+          <video class="video-bg" autoplay muted loop="loop">
+            <source src="{{ page.bg }}" type="{{ page.bg-type }}"  />
+          </video>
+      {%- endif -%}
+
+      <div class="container">
         {{ content }}
+      </div>
     </main>
 
     {%- include footer.html -%}
