@@ -18,21 +18,26 @@ Enjoy!
 #### The team
 
 <div class="row">
-  <div class="col s12 m1">
+  <div class="col s12 m2">
   </div>
 
 {% for member in site.team_members %}
-  <div class="col s12 m2">
-    <div class="card blue-grey darken-1">
+  <div class="col s12 m5">
+    <div class="card horizontal blue-grey darken-1">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="{{member.portrait}}" alt="{{member.name}}">
       </div>
-      <div class="card-content">
-        <span class="card-title activator">{{member.name}}<i class="material-icons right">arrow_drop_up</i></span>
+      <div class="card-stacked">
+        <div class="card-content">
+          <span class="card-title activator"><i class="material-icons right">expand_less</i>{{member.name}}</span>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
       </div>
-      <div class="card-reveal blue-grey darken-1">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">arrow_drop_down</i></span>
-        <p>{{member.content}}</p>
+      <div class="card-reveal blue-grey darken-2">
+        <span class="card-title grey-text text-darken-4"><i class="material-icons right">expand_more</i>{{member.roles}}</span>
+        <p>{{member.content | markdownify}}</p>
       </div>
     </div>
   </div>
