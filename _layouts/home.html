@@ -1,9 +1,17 @@
 ---
-layout: default-enanced
+layout: default
 ---
 
-<div class="home">
+{%- if page.video -%}
+<div>
+  <video class="video-bg" autoplay muted loop="loop">
+    <source src="{{ page.video }}" type="video/mp4"  />
+  </video>
+</div>
+{%- endif -%}
 
+
+<div class="container">
   <div class="headline">
   {{ content }}
   </div>
@@ -16,5 +24,5 @@ layout: default-enanced
     {% include related.html postlist=posts top=5 %}
   </ul>
   {%- endif -%}
-
 </div>
+

@@ -2,7 +2,14 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import "components/color-variables";
+$primary-color: color("blue-grey", "darken-4") !default;
+$secondary-color: color("yellow", "base") !default;
 @import "materialize";
+
+main {
+  overflow-x: hidden;
+}
 
 .tag {
   display: inline;
@@ -60,12 +67,11 @@ video.video-bg{
 display:block;
 width:100%;
 min-width: 500px;
-overflow-x: hidden;
 }
 
 div.headline {
   position: absolute;
-  top: 100px;
+  top: 50px;
 }
 
 // Adds support for a video holder

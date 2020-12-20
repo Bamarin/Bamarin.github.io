@@ -6,7 +6,7 @@ layout: home
 list_title: Latest posts
 video: "https://cdn-animation.artstation.com/p/video_sources/000/085/612/0001-1050.mp4"
 ---
-# Leonardo Marini
-## Computer Science Engineering Student
-## Tech-Artist
+### Leonardo Marini
+#### Computer Science Engineering Student
+#### Tech-Artist
 

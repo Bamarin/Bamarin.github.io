@@ -1,12 +1,17 @@
-<footer class="site-footer h-card">
+<footer class="page-footer">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
+  <div class="container">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <div class="row">
+      <div class="col s12">
+        <h5>{{ site.title }}</h2>
+      </div>
+    </div>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+
+    <div class="row">
+      <div class="col s12 m4">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -14,22 +19,33 @@
             {%- else -%}
               {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li> <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a> </li>
+          {%- endif -%}
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {{- site.description | escape -}}
+      <div class="col s12 m4">
+        <p>
+          {{- site.description | escape -}}
+        </p>
       </div>
 
-      <div class="footer-col footer-col-3">
+      <div class="col s12 m4">
         <p>Designed by Bamarin.</br>Made with Jekill.</br><a href="{{ site.repo }}"> Source code</a></p>
       </div>
-    </div>
 
+    </div>
   </div>
+
+  <!--
+  <div class="footer-copyright">
+    <div class="container">
+    © 2014 Copyright Text
+    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+  -->
 
 </footer>

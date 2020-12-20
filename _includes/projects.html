@@ -1,7 +1,11 @@
-<h1>Projects</h1>
+<h2>Projects</h2>
 
-  {% for project in site.projects %}
-      <a href="{{project.url}}">
-        <img style="margin: 20px 0px" src={{project.banner}} />
-      </a>
-  {% endfor %}
+<div class="row">
+{% for project in site.projects %}
+  <div class="col s12 m6">
+    <a href="{{project.url}}">
+      <img class="responsive-img" src={{project.banner}} />
+    </a>
+  </div>
+{% endfor %}
+</div>
