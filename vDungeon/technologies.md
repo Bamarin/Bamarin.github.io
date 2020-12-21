@@ -108,25 +108,47 @@ From the main menu to the game scene, users' choice to be a master/player, and t
 
 
 #### Face Tracking
-The face tracking system starts with a face landmarks tracking procedure. For later estimation of head position, orientation and the facial expression features, 68 face landmarks are tracked using Dlib and OpenCV library.
+<div class="row">
+  <div class="col s12 m6 l3">
+    <figure>
+        <img src="/assets/images/vdungeon/landmarks.png" alt="Normals on a wall." class="responsive-img">
+        <a href="https://www.researchgate.net/figure/The-68-landmarks-detected-by-dlib-library-This-image-was-created-by-Brandon-Amos-of-CMU_fig2_329392737">researchgate.net</a>
+    </figure>
+  </div>
+  <div class="col s12 m6 l6">
+    <p style="text-align: justify;">
+      The face tracking system starts with a face landmarks tracking procedure.
+      For later estimation of head position, orientation and the facial expression features,
+      68 face landmarks are tracked using Dlib and OpenCV library.
+    </p>
+    <p style="text-align: justify;">
+      Based on the tracked landmarks, the orientation and position of  the head in a 3D space can be estimated using a monocular camera through PnP (Perspective-n-Point) measurement.
+    </p>
+  </div>
+  <div class="col s12 m6 l3">
+        <img src="https://www.learnopencv.com/wp-content/uploads/2016/09/pose-estimation-requirements-opencv.jpg" alt="Normals on a wall." class="responsive-img">
+        <a href="https://www.learnopencv.com/head-pose-estimation-using-opencv-and-dlib/">learnopencv.com</a>
+  </div>
+</div>
 
-![landmarks](https://www.researchgate.net/profile/Pavel_Korshunov/publication/329392737/figure/fig2/AS:731613625335813@1551441689799/The-68-landmarks-detected-by-dlib-library-This-image-was-created-by-Brandon-Amos-of-CMU.ppm)
-[researchgate.net](https://www.researchgate.net/figure/The-68-landmarks-detected-by-dlib-library-This-image-was-created-by-Brandon-Amos-of-CMU_fig2_329392737)
-
-Based on the tracked landmarks, the orientation and position of  the head in a 3D space can be estimated using a monocular camera through PnP (Perspective-n-Point) measurement.
-
-![head pose](https://www.learnopencv.com/wp-content/uploads/2016/09/pose-estimation-requirements-opencv.jpg)
-[learnopencv.com](https://www.learnopencv.com/head-pose-estimation-using-opencv-and-dlib/)
-
+<div class="row">
+  <div class="col s12 m6 l3">
+        <img src="https://www.learnopencv.com/wp-content/uploads/2016/09/ImageFormationEquation.jpg" alt="Normals on a wall." class="responsive-img">
+        <a href="https://www.learnopencv.com/head-pose-estimation-using-opencv-and-dlib/">learnopencv.com</a>
+  </div>
+  <div class="col s12 m6 l6">
+    <p style="text-align: justify;">
 In general, the idea is to transform the 3D points in world coordinates to 3D points in camera coordinates. The 3D points in camera coordinates can be projected onto the image plane using the intrinsic parameters of the camera ( focal length, optical center etc.).
-
-![coordinates](https://www.learnopencv.com/wp-content/uploads/2016/09/ImageFormationEquation.jpg)
-[learnopencv.com](https://www.learnopencv.com/head-pose-estimation-using-opencv-and-dlib/)
-
+    </p>
+    <p style="text-align: justify;">
 The facial expression features extraction especially focused on tracking the openness of eyes and mouth, together with the distance between eyes and eyebrows. The core algorithm here is  Eye-Aspect-Ratio which is the mostly used feature for detecting eye-blinking. 
-
-![blink](https://lh5.googleusercontent.com/NEdpVPSIHlb6vKjJ86d3Q_spX0MrYB33GeMvdn3J3k4B4kr87Jpy7YBw4shn1JfwpXEOfNzjIhEHpsDh-dndx2j-riFGiDgbqk7diPEGl5mA__sgDKUuczbJd5tCUKSALwIJ6zp3)
-[hackaday.io](https://hackaday.io/project/27552-blinktotext/log/68360-eye-blink-detection-algorithms#:~:text=The%20Eye%20Aspect%20Ratio%20is,defined%20by%20the%20below%20equation.&text=A%20program%20can%20determine%20if,is%20another%20facial%20landmark%20plotter)
+    </p>
+  </div>
+  <div class="col s12 m6 l3">
+        <img src="https://lh5.googleusercontent.com/NEdpVPSIHlb6vKjJ86d3Q_spX0MrYB33GeMvdn3J3k4B4kr87Jpy7YBw4shn1JfwpXEOfNzjIhEHpsDh-dndx2j-riFGiDgbqk7diPEGl5mA__sgDKUuczbJd5tCUKSALwIJ6zp3" alt="Normals on a wall." class="responsive-img">
+        <a href="https://hackaday.io/project/27552-blinktotext/log/68360-eye-blink-detection-algorithms#:~:text=The%20Eye%20Aspect%20Ratio%20is,defined%20by%20the%20below%20equation.&text=A%20program%20can%20determine%20if,is%20another%20facial%20landmark%20plotter">hackaday.io</a>
+  </div>
+</div>
 
 This provides the primary base for the openness detection for both mouth and eyes. Based on it, a rotational invariance is added into computation by defining a reference distance which is insensitive to the rotation.
 
@@ -135,7 +157,13 @@ This provides the primary base for the openness detection for both mouth and eye
 
 Before mapping the face tracking data with the actual model, it can be observed that the detection results are quite noisy and unstable. Therefore a Kalman filter and a Median filter are implemented to reduce noise in image processing and stabilize the model animation. Kalman filter is used during landmarks tracking so that the history information is used rather than just relying on the detected location from the current frame alone. The Median filter is applied for further optimization by running through the signal entry by entry, replacing each entry with the median of neighboring entries in size of 5 frames.
 
-<iframe src="https://drive.google.com/file/d/13Ukt8FZSQ7iln_6pwLit37NQ6V0k7RrN/preview" width="640" height="480"></iframe>
+  <div class="row">
+    <div class="col s12 m10 offset-m1">
+      <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/13Ukt8FZSQ7iln_6pwLit37NQ6V0k7RrN/preview" width="100%" height="450px" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 
 #### Facial Animations
 The animation style used to animate the face is called Morph target animation. This is done by having a default neutral face and a bunch of premade expressions that the face can morph into. These premade expressions are called blend shapes and we have created one for each moveable facial  feature. The blend shapes allows us to interpolate between the neutral expression and the modified ones and since this can be done for all blend shapes at the same time it creates a large range of possible facial expressions.
