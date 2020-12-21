@@ -36,6 +36,9 @@ permalink: VDungeon/technologies/
 </div>
 
 
+#### Unity
+We builded our application starting from the game engine Unity. This was an obvious choice for us since everyone had already at least a little experience with it.
+
 #### Mirror Networking
 Making a multiplayer game was a crucial part of this project, as we intended it to allow people to meet online. Since no one of us had experience in netcoding we chose to use a pre-existing API to simplify our work.
 
