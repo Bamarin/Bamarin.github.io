@@ -20,9 +20,16 @@
   padding: 0px 20px;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 main {
   overflow-x: hidden;
   background-color: color("blue-grey", "darken-4");
+  flex: 1 0 auto;
 }
 
 .tag {
