@@ -35,9 +35,37 @@ permalink: VDungeon/technologies/
   </div>
 </div>
 
+<div class="row">
+  <div class="col s3">
+    <img src="/assets/images/vdungeon/corner.png" alt="Normals on a wall." class="responsive-img">
+  </div>
+  <div class="col s3">
+    <img src="/assets/images/vdungeon/door.png" alt="Normals on a wall." class="responsive-img">
+  </div>
+  <div class="col s3">
+    <img src="/assets/images/vdungeon/pillar.png" alt="Normals on a wall." class="responsive-img">
+  </div>
+  <div class="col s3">
+    <img src="/assets/images/vdungeon/wall.png" alt="Normals on a wall." class="responsive-img">
+  </div>
+</div>
 
-#### Unity
-We builded our application starting from the game engine Unity. This was an obvious choice for us since everyone had already at least a little experience with it.
+
+<div class="row">
+  <div class="col s12 m4">
+    <h4> Unity </h4>
+    <p style="text-align: justify;">
+    We builded our application starting from the game engine Unity.
+    This was an obvious choice for us since everyone had already at least a little experience with it.
+    </p>
+  </div>
+  <div class="col s3 offset-s7 offset-m1">
+    <img src="https://en.usens.com/wp-content/uploads/2017/12/ASJDkM91CLjQmt6oaNdk6g-unity-logo-white-rgb_smaller.png" alt="Normals on a wall." class="responsive-img">
+  </div>
+  <div class="col s2 offset-m2">
+    <img src="/assets/images/vdungeon/mirror.png" alt="Normals on a wall." class="right responsive-img">
+  </div>
+</div>
 
 #### Mirror Networking
 Making a multiplayer game was a crucial part of this project, as we intended it to allow people to meet online. Since no one of us had experience in netcoding we chose to use a pre-existing API to simplify our work.
