@@ -2,20 +2,28 @@
 The nav items are loaded from the file _data/navigation
 {% endcomment %}
 <header class="site-header" role="banner">
-  <nav>
+  <nav class="nav-extended">
     <div class="nav-wrapper">
       <a class="brand-logo" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       {%- for item in site.data.navigation -%}
-        <li>
-          <a class="page-link {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}" >{{ item.name }}</a>
-        </li>
+        <li><a class="page-link {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}" >{{ item.name }}</a></li>
       {%- endfor -%}
       </ul>
     </div>
+    {% assign project = page.url | split: "/" %}
+    {% for name in project limit:2 %}
+      {% if name == "VDungeon" %}
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="/VDungeon">VDungeon</a></li>
+            <li class="tab"><a href="/VDungeon/download">Download</a></li>
+            <li class="tab"><a href="/VDungeon/technologies">Technologies</a></li>
+            <li class="tab"><a href="/VDungeon/lesson">Lessons learned</a></li>
+          </ul>
+        </div>
+      {% endif %}
+    {% endfor %}
   </nav>
 </header>
-{% comment %}
-{%- include social-short.html -%}
-{%endcomment%}
 
