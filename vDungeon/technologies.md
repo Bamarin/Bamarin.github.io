@@ -35,6 +35,16 @@ permalink: VDungeon/technologies/
   </div>
 </div>
 
+
+#### Mirror Networking
+Making a multiplayer game was a crucial part of this project, as we intended it to allow people to meet online. Since no one of us had experience in netcoding we chose to use a pre-existing API to simplify our work.
+
+Mirror was a great choice because it offers high-level functions and it is well documented.
+We were able to create a shared environment, where every player can interact with it, and the changes are reflected on the rest of the group that is connected to the same “room”. It was also quite easy to setup a public server, so that multiple people can connect over the internet.
+
+However, Mirror has its own flaws as well: being a predefined tool, ready to use, means that it is especially good to make a particular job, but it is a lot harder to make things work in an unusual way. In this case, it is perfect for creating a MMO game, where every player has the same role as each other. However we wanted to define two very distinct roles: Master and Player. Although we managed to differentiate them, this was very hard to achieve.
+
+
 #### Main Menu Scene, UI and Particle Effects
 For better management purposes, the whole project is separated into two scenes, the main menu scene and the game scene. The main menu scene is built from a combination of a free pixel-style asset [Voxy Legends](https://assetstore.unity.com/packages/3d/environments/dungeons/voxy-legends-environment-pack-vol-1-95825) and our own world models, which is rendered in real-time with animated particle effects and baked global illumination with soft shadows to create a more realistic dungeon atmosphere.
 
