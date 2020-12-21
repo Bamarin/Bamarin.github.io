@@ -10,9 +10,13 @@
 
     <main>
       {%- if page.bg -%}
+      <div class="parallax-container">
+        <div class="parallax">
           <video class="video-bg" autoplay muted loop="loop">
             <source src="{{ page.bg }}" type="{{ page.bg-type }}"  />
           </video>
+        </div>
+      </div>
       {%- endif -%}
 
       <div class="container">
@@ -23,5 +27,11 @@
     {%- include footer.html -%}
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="{{ "assets/js/materialize.min.js" | absolute_url }}"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems, options);
+      });
+    </script>
   </body>
 </html>
