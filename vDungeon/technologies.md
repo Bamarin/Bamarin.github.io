@@ -168,3 +168,10 @@ Before mapping the face tracking data with the actual model, it can be observed 
 #### Facial Animations
 The animation style used to animate the face is called Morph target animation. This is done by having a default neutral face and a bunch of premade expressions that the face can morph into. These premade expressions are called blend shapes and we have created one for each moveable facial  feature. The blend shapes allows us to interpolate between the neutral expression and the modified ones and since this can be done for all blend shapes at the same time it creates a large range of possible facial expressions.
 
+  <div class="row">
+    <div class="col s12 m10 offset-m1">
+      <div class="video-container">
+        <iframe src="/assets/videos/blendshape_Trim.mp4" width="100%" height="450px" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
