@@ -1,12 +1,9 @@
 ---
 abc: 4
-name: Ziqi Xia
-permalink: /VDungeon/cecilia
-roles: "Face tracking and Dice system"
-portrait: "/assets/images/vdungeon/cecilia.jpg"
+name: Yuwen Hu
+permalink: /VDungeon/yuwen
+roles: "UI Design and Game Development"
+portrait: "/assets/images/vdungeon/yuwen.jpg"
 ---
 
-My main contribution to the project is the implementation of the **face tracking system** and building the **mapping** between face tracking data and the 3D model. I also 
-build the **server-client connection between Python and Unity** in order to communicate data from face tracking in Python to Unity. During the later stage of the project, 
-I focus on implementing Kalman filter and Median filter to **reduce noise in image processing** and **stabilize the model animation**. And I created a **dice system** with 
-crafted **model** and smooth **rolling interaction**, which is a typical game mechanic in a tabletop game.
+In the early stage of this project, I mainly contributed to the control of the game, including the handle of **multiple and dynamic cameras**, drag-and-move control on the game board, as well as the **first person control** on both PC and mobile devices through **gyroscope or swiping**. In the later stage of the project, I focused more on the **UI design and implementation**, including the set-up of the **main menu scene**, the connection to the network manager, and the **UI animation** throughout the game. I also implemented the **particle effects** for fire and included simple **global illumination**.
