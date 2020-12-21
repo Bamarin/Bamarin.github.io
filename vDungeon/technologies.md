@@ -5,7 +5,7 @@ permalink: VDungeon/technologies/
 
 ### Graphics and Technologies
 
-#### The board
+#### The Board
 <div class="row">
   <div class="col s12 l6">
     <p style="text-align: justify;">
