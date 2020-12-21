@@ -12,18 +12,18 @@ list_title: Posts
 ###### We want to provide a more engaging way to play Roleplaying Games (RPGs) at a distance.
 <div class="row">
   <div class="col s12 m7">
-<p style="text-align: justify;">
-The current pandemic has forced the majority of us to stay at home, so we wanted to create something that could bring people together online.
-We thought of the many people that started approaching RPGs online and what could be the difficulties with it.
-Clearly, communication is the crucial part in this kind of game, and most of it is non-verbal so showing your face with a webcam helps a lot.
-</p>
+    <p style="text-align: justify;">
+    The current pandemic has forced the majority of us to stay at home, so we wanted to create something that could bring people together online.
+    We thought of the many people that started approaching RPGs online and what could be the difficulties with it.
+    Clearly, communication is the crucial part in this kind of game, and most of it is non-verbal so showing your face with a webcam helps a lot.
+    </p>
 
-<p>But what if I don't feel confortable with showing my face to, possibly, strangers?</p>
+    <p>But what if I don't feel confortable with showing my face to, possibly, strangers?</p>
 
-<p style="text-align: justify;">
-VDungeon solves this problem by providing a virtual avatar that will match your facial expression.
-This also allows to fully immerse into the story, by being able to see what your teammates look like, and even letting you see the world from the eyes of your character!
-</p>
+    <p style="text-align: justify;">
+    VDungeon solves this problem by providing a virtual avatar that will match your facial expression.
+    This also allows to fully immerse into the story, by being able to see what your teammates look like, and even letting you see the world from the eyes of your character!
+    </p>
   </div>
 </div>
 
