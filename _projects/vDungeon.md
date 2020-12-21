@@ -34,7 +34,21 @@ Enjoy!
           <span class="card-title activator"><i class="material-icons right">expand_less</i>{{member.name}}</span>
         </div>
         <div class="card-action">
-          <a href="#">This is a link</a>
+          {% if member.github %}
+          <a href="https://github.com/{{ member.github| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+          {% endif %}
+          {% if member.linkedin %}
+          <a href="https://www.linkedin.com/in/{{ member.linkedin| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
+          {% endif %}
+          {% if member.facebook %}
+          <a href="https://www.facebook.com/{{ member.facebook| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg></a>
+          {% endif %}
+          {% if member.instagram %}
+          <a href="https://www.instagram.com/{{ member.instagram| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>
+          {% endif %}
+          {% if member.youtube %}
+          <a href="https://youtube.com/{{ member.youtube| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>
+          {% endif %}
         </div>
       </div>
       <div class="card-reveal blue-grey darken-2">

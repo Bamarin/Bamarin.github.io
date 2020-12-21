@@ -4,6 +4,18 @@
 
 @import "materialize";
 
+/**
+ * Icons
+ */
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: color("shades", "white");
+    vertical-align: text-top;
+}
+
 .nav-wrapper {
   padding: 0px 20px;
 }

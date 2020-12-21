@@ -4,6 +4,11 @@ name: Leonardo Marini
 permalink: /VDungeon/leonardo
 roles: "Multiplayer programmer and Web developer"
 portrait: "/assets/images/vdungeon/leonardo.jpg"
+facebook: leonardopaolo21
+github: Bamarin
+instagram: bamarin_it
+linkedin: leonardo-marini-it
+youtube: TheMaui97
 ---
 
 At the start of the project I fucesed mostly on the **design of the software**: defining classes and distributing the work across the team. During the development 
