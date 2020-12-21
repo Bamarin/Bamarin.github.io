@@ -5,9 +5,9 @@ permalink: VDungeon/technologies/
 
 ### Graphics and Technologies
 
-#### The Board
 <div class="row">
   <div class="col s12 l6">
+    <h4> The Board </h4>
     <p style="text-align: justify;">
     The board uses a simplified coordinate system with grid cells being represented by integer X and Y values, which can be converted to and from world space coordinates (X, Y, Z).
     Wall pieces follow a special rule, where the wall object is offset from the center of the cell in order to stick to the space between cells.
@@ -26,6 +26,12 @@ permalink: VDungeon/technologies/
 
   <div class="col s12 l6">
     <img src="/assets/images/vdungeon/normals.png" alt="Normals on a wall." class="responsive-img">
+  </div>
+  <div class="col s2 l1 right">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/The_GIMP_icon_-_gnome.svg/1024px-The_GIMP_icon_-_gnome.svg.png" alt="Normals on a wall." class="responsive-img">
+  </div>
+  <div class="col s2 l1 right">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/1252px-Blender_logo_no_text.svg.png" alt="Normals on a wall." class="responsive-img">
   </div>
 </div>
 
