@@ -8,14 +8,11 @@ video: "https://drive.google.com/file/d/1vWwAvstuZiCn9L2g9PVEvxkBK_8MLckx/previe
 list_title: Posts
 ---
 
+### Goal and Motivation
+Our goal is to provide a more engaging way for RPG players/friends in a remote call session to interact via video chat, while also providing a more laid-back environment by using virtual avatars to represent the players.
+We were motivated by the ongoing 2020 pandemic, which has limited the ability of people to meet in-person safely. We were also partially motivated by RPG groups that already operate remotely, where some of the players may feel insecure to use video chat.
 
-#### [Download](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and Installation
-Download the application by clicking on the link that will take you to the [repository's releases section](https://github.com/Bamarin/AGI20_Group05_VDungeon/releases) and downloading the latest release (`VDungeon.zip`).
-
-Run the file named `VDungeon.exe`, then chose either Master (you will host the game) or player (you will be asked the IP of an host).
-Enjoy!
-
-#### The team
+### The team
 
 <div class="row">
   <div class="col s2"></div>
