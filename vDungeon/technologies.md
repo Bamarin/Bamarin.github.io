@@ -47,13 +47,13 @@ For better management purposes, the whole project is separated into two scenes, 
   
   <div class="col s12 m8 l4">
     <img src="/assets/images/vdungeon/flames.gif" alt="Normals on a wall." class="responsive-img">
+    <div class="row">
+      <div class="col s3 center">outer flame</div>
+      <div class="col s3 center">inner flame</div>
+      <div class="col s3 center">glow</div>
+      <div class="col s3 center">sparks</div>
+    </div>
   </div>
-</div>
-<div class="row">
-  <div class="col s3 m2 l1 offset-l8 center">outer flame</div>
-  <div class="col s3 m2 l1 center">inner flame</div>
-  <div class="col s3 m2 l1 center">glow</div>
-  <div class="col s3 m2 l1 center">sparks</div>
 </div>
 
 From the main menu to the game scene, users' choice to be a master/player, and the IP address to connect need to be transferred together with the scene. To achieve this, Unity PlayerPrefs is used to store these data locally.
