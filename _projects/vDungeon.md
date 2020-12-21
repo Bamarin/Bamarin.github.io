@@ -18,11 +18,13 @@ Enjoy!
 #### The team
 
 <div class="row">
-  <div class="col s12 m2">
-  </div>
-
+  <div class="col s2"></div>
 {% for member in site.team_members %}
-  <div class="col s12 m5">
+  {% if member.abc == 5 %}
+  <div class="col s12 l5 offset-l2">
+  {% else %}
+  <div class="col s12 l5">
+  {% endif %}
     <div class="card horizontal blue-grey darken-1">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="{{member.portrait}}" alt="{{member.name}}">
