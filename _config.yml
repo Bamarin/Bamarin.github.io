@@ -35,7 +35,6 @@ youtube_username: TheMaui97
 google_analytics: UA-169225375-1
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -66,7 +65,6 @@ show_excerpts: true
 
 collections:
   team_members:
-    output: true
   projects:
     output: true
 
