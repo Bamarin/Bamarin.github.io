@@ -7,7 +7,7 @@ permalink: VDungeon/technologies/
 
 #### The board
 <div class="row">
-  <div class="col s12 m6">
+  <div class="col s12 l6">
     <p style="text-align: justify;">
     The board uses a simplified coordinate system with grid cells being represented by integer X and Y values, which can be converted to and from world space coordinates (X, Y, Z).
     Wall pieces follow a special rule, where the wall object is offset from the center of the cell in order to stick to the space between cells.
@@ -24,19 +24,37 @@ permalink: VDungeon/technologies/
     </p>
   </div>
 
-  <div class="col s12 m6">
-    <img src="https://lh5.googleusercontent.com/NQLqUjxrBfdXt2LkUbTrTNyOFIYgIAOZ1eZyaI5wVASlpPZXoh8UbKYHOtZtikFY_RHrupDBkuRYukQ3gbGZIPOLMHf7M0buQnwHP1aEOi1GvblpME0f46nGRvsV3JSKphmVuIG9" alt="" class="responsive-img">
+  <div class="col s12 l6">
+    <img src="/assets/images/vdungeon/normals.png" alt="Normals on a wall." class="responsive-img">
   </div>
 </div>
 
 #### Main Menu Scene, UI and Particle Effects
 For better management purposes, the whole project is separated into two scenes, the main menu scene and the game scene. The main menu scene is built from a combination of a free pixel-style asset [Voxy Legends](https://assetstore.unity.com/packages/3d/environments/dungeons/voxy-legends-environment-pack-vol-1-95825) and our own world models, which is rendered in real-time with animated particle effects and baked global illumination with soft shadows to create a more realistic dungeon atmosphere.
 
-![animated background](https://lh6.googleusercontent.com/bPRr19agATNEqOvcJCfXVBbKRDlFkZRqMZXlMSEsLb3objrEx_V_I058nfH8XFfEi0_8pmm5qon1gVuml1iRENfGAzA7tQWvt9pSICZw8BFCEeQzeTKH5jIflxYjrzvhWcfbEsOQ)
 
-To unify the pixel-style throughout the game, all UIs are pixel arts drawn using Photoshop or modified from assets [SimplePixelUI](https://assetstore.unity.com/packages/2d/gui/icons/simple-free-pixel-art-styled-ui-pack-165012?locale=zh-CN), with implemented animation to support smooth hovering/popping up/disappearing effects. The particle effects for fire are also based on a pixelated material, created through accumulating four separated particle systems which represent the outer flame, inner flame, glow, and the sparks separately.
 
-![flame particles](https://lh6.googleusercontent.com/kDTE9ud40yldTR9SIoh23axInUiaj_mwRhdJsUVvBYjENYfLCYchgdVVpNJOc7MiQpI5cwSra_G4C7yhHoEsRKY77GALc7uczQRlS0fvaWkQB6G6ELX_hNOl66hpSzWe086BMTVT)
+<div class="row">
+  <div class="col s12 m8">
+    <img src="/assets/images/vdungeon/room.gif" alt="Normals on a wall." class="responsive-img">
+  </div>
+  <div class="col m12 l4">
+    <p style="text-align: justify;">
+      To unify the pixel-style throughout the game, all UIs are pixel arts drawn using Photoshop or modified from assets
+      <a href="https://assetstore.unity.com/packages/2d/gui/icons/simple-free-pixel-art-styled-ui-pack-165012?locale=zh-CN">SimplePixelUI</a>, with implemented animation to support smooth hovering/popping up/disappearing effects. The particle effects for fire are also based on a pixelated material, created through accumulating four separated particle systems which represent the outer flame, inner flame, glow, and the sparks separately.
+    </p>
+  </div>
+  
+  <div class="col s12 m8 l4">
+    <img src="/assets/images/vdungeon/flames.gif" alt="Normals on a wall." class="responsive-img">
+  </div>
+</div>
+<div class="row">
+  <div class="col s3 m2 l1 offset-l8 center">outer flame</div>
+  <div class="col s3 m2 l1 center">inner flame</div>
+  <div class="col s3 m2 l1 center">glow</div>
+  <div class="col s3 m2 l1 center">sparks</div>
+</div>
 
 From the main menu to the game scene, users' choice to be a master/player, and the IP address to connect need to be transferred together with the scene. To achieve this, Unity PlayerPrefs is used to store these data locally.
 
