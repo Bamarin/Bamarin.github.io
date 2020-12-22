@@ -16,10 +16,10 @@ list_title: Posts
     </div>
   </div>
 
-### Goals and Motivation
-###### We want to provide a more engaging way to play Roleplaying Games (RPGs) at a distance.
 <div class="row">
   <div class="col s12 m7">
+    <h3> Goals and Motivation </h3>
+    <h6> We want to provide a more engaging way to play Roleplaying Games (RPGs) at a distance. </h6>
     <p style="text-align: justify;">
     The current pandemic has forced the majority of us to stay at home, so we wanted to create something that could bring people together online.
     We thought of the many people that started approaching RPGs online and what could be the difficulties with it.
@@ -35,15 +35,26 @@ list_title: Posts
   </div>
 </div>
 
+<div class="row">
+  <div class="col s12 m7 offset-m5">
+    <h3> Challenges </h3>
+    The biggest challenge was networking, as none of us was familiar with making a multiplayer game, it ended up being more complex than expected.
+    At the beginning we struggled creating face animations that could be read by OpenCV. We were able to circumvent this obstacle by using blandshaps on a simpler model.
+    Finally, managing a project without ever being able to meet in person was not trivial. Communication plays a crucial role to avoid clashes of individual works.
+
+  </div>
+</div>
+
+
 ### The team
 
 <div class="row">
-  <div class="col s2"></div>
+  <div class="col m3 l2"></div>
 {% for member in site.team_members %}
   {% if member.abc == 5 %}
-  <div class="col s12 l5 offset-l2">
+  <div class="col s12 m6 l5 offset-l2">
   {% else %}
-  <div class="col s12 l5">
+  <div class="col s12 m6 l5">
   {% endif %}
     <div class="card horizontal blue-grey darken-1">
       <div class="card-image waves-effect waves-block waves-light">
