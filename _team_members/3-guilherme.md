@@ -4,6 +4,8 @@ name: Guilherme Diegoli Neto
 permalink: /VDungeon/guilherme
 roles: "Level Editor and Environment Design"
 portrait: "/assets/images/vdungeon/guilherme.jpg"
+github: gdn002
+linkedin: guilherme-diegoli-neto
 ---
 
 My primary contributions during the first half of the project were the implementation of the **grid system** through which the enviroment operates, including 
