@@ -5,7 +5,7 @@ permalink: /VDungeon/guilherme
 roles: "Level Editor and Environment Design"
 portrait: "/assets/images/vdungeon/guilherme.jpg"
 github: gdn002
-linkedin: guilherme-diegoli-neto
+linkedin: guilherme-diegoli-neto-a89620b2
 ---
 
 My primary contributions during the first half of the project were the implementation of the **grid system** through which the enviroment operates, including 
