@@ -1,6 +1,6 @@
 ---
 title: Physical Interaction Model for Virtual Reality
-code: "physicsVR"
+code: physicsVR
 category: physicsVR
 permalink: /physicsVR
 banner: "/assets/images/physicsVR.png"
