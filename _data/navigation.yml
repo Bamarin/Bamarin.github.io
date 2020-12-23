@@ -6,3 +6,10 @@
   link: /artist/
 - name: Resume
   link: /assets/doc/CV.pdf
+- name: Projects
+  link: "#!"
+  dropdown:
+    - name: xxx
+      link: aaa
+    - name: yyy
+      link: bbb

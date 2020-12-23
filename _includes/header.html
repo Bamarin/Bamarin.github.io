@@ -2,12 +2,23 @@
 The nav items are loaded from the file _data/navigation
 {% endcomment %}
 <header class="site-header" role="banner">
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+  {% for project in site.projects %}
+    <li><a href="#!">one</a></li>
+  {%- endfor -%}
+  </ul>
   <nav class="nav-extended">
     <div class="nav-wrapper">
       <a class="brand-logo" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       {%- for item in site.data.navigation -%}
-        <li><a class="page-link {% if page.url == item.link %}current{% endif %}" href="{{ item.link }}" >{{ item.name }}</a></li>
+        <li>
+          <a class="page-link {% if page.url == item.link %}current{% endif %} {% if item.dropdown %}dropdown-trigger{% endif %}" href="{{ item.link }}" {% if item.dropdown %}data-target="dropdown1"{% endif %}>
+            {{ item.name }}
+            {% if item.dropdown %}<i class="material-icons right">arrow_drop_down</i>{% endif %}
+          </a>
+        </li>
       {%- endfor -%}
       </ul>
     </div>
