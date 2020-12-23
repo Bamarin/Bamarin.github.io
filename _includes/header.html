@@ -5,7 +5,7 @@ The nav items are loaded from the file _data/navigation
   <!-- Dropdown Structure -->
   <ul id="dropdown1" class="dropdown-content">
   {% for project in site.projects %}
-  <li><a href="{{project.permalink}}">{{project.codnstage}}</a></li>
+    <li><a href="{{project.permalink}}">{{project.code}}</a></li>
   {%- endfor -%}
   </ul>
   <nav class="nav-extended">
