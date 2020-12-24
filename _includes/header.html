@@ -11,14 +11,32 @@ The nav items are loaded from the file _data/navigation
   <nav class="nav-extended">
     <div class="nav-wrapper">
       <a class="brand-logo" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
       {%- for item in site.data.navigation -%}
+        <!-- top nav-bar desktop -->
         <li>
-          <a class="page-link {% if page.url == item.link %}current{% endif %} {% if item.dropdown %}dropdown-trigger{% endif %}" href="{{ item.link }}" {% if item.dropdown %}data-target="dropdown1"{% endif %}>
+          <a class="page-link {% if page.url == item.link %}current{% endif %} {% if item.dropdown %}dropdown-trigger{% endif %}" href="{{ item.link }}" data-target="dropdown1">
             {{ item.name }}
             {% if item.dropdown %}<i class="material-icons right">arrow_drop_down</i>{% endif %}
           </a>
         </li>
+      {%- endfor -%}
+      </ul>
+      <ul class="sidenav" id="mobile-demo">
+      {%- for item in site.data.navigation -%}
+        <!-- side nav-bar mobile -->
+        <li>
+          {% unless item.dropdown %}
+          <a class="page-link {% if page.url == item.link %}current{% endif %}"  href="{{ item.link }}">
+            {{ item.name }}
+          </a>
+          {%endunless%}
+        </li>
+      {%- endfor -%}
+        <li class="divider"></li>
+      {% for project in site.projects %}
+        <li><a href="{{project.permalink}}">{{project.code}}</a></li>
       {%- endfor -%}
       </ul>
     </div>
