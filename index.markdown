@@ -9,5 +9,5 @@ bg-type: "video/mp4"
 ---
 ### Leonardo Marini
 #### Computer Science Engineering Student
-#### Tech-Artist
+#### Technical Artist
 
