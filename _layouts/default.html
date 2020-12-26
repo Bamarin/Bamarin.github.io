@@ -21,6 +21,22 @@
     </main>
 
     {%- include footer.html -%}
+
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#cookie-alert">Modal</a>
+    <!-- Modal Structure -->
+    <div id="cookie-alert" class="modal">
+      <div class="modal-content">
+        <h4>Cookies</h4>
+        <p>This site uses first and third party cookies to offer you a better experience and get analytics for this website.</p>
+        <p>By using this Site or clicking on "Allow cookies", you consent to the use of cookies.</p>
+        <a href="https://europa.eu/european-union/abouteuropa/cookies_en">Learn more</a>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Allow cookies</a>
+      </div>
+    </div>
+
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="{{ "assets/js/materialize.js" | absolute_url }}"></script>
@@ -28,6 +44,11 @@
       $(document).ready(function(){
         $(".dropdown-trigger").dropdown();
         $('.sidenav').sidenav();
+        $('.modal').modal();
+        if(localStorage.getItem('cookieSeen') != 'shown'){
+          $('#cookie-alert').modal('open');
+          localStorage.setItem('cookieSeen','shown')
+        }
       });
     </script>
   </body>
