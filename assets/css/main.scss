@@ -2,79 +2,16 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "materialize";
+@import "dogfalo/materialize";
 
-
+@import "header";
+@import "body";
+@import "gallery";
+@import "icons";
+@import "tags";
 
 .modal{
   color: black;
-}
-
-/**
- * Icons
- */
-
-.svg-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    fill: color("shades", "white");
-    vertical-align: text-top;
-}
-
-.brand-logo {
-  margin: 0px 20px;
-}
-
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-main {
-  overflow-x: hidden;
-  background-color: color("blue-grey", "darken-4");
-  flex: 1 0 auto;
-}
-
-.tag {
-  display: inline;
-  background-color: grey;
-  color: white;
-  border-radius: 12px;
-  padding: 0px 5px;
-  float: right;
-  margin-left: 5px;
-}
-
-.tag:visited {
-  color: white;
-}
-
-.tag:hover {
-  color: white;
-  text-decoration: none;
-  background-color: darkgrey;
-
-}
-
-/* gallery */
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
 }
 
 .site-nav {
