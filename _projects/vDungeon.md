@@ -3,7 +3,7 @@ title: VDungeon
 code: VDungeon
 category: vDungeon
 permalink: /VDungeon
-banner: "/assets/images/vdungeon/title.png"
+banner: "/assets/images/VDungeon.png"
 video: "https://drive.google.com/file/d/1jL_kE5HZTKgDHRbU3h5bVWXLN9uZ-Y48/preview"
 list_title: Posts
 ---
