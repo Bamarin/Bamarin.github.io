@@ -1,16 +1,23 @@
 ---
-title: About
+layout: text-img
+title: Leonardo Marini
+image: /assets/images/vdungeon/leonardo.jpg
 permalink: /about/
 ---
 
-<img src="/assets/images/fototessera2019.jpg" />
+Leonardo is a Computer Science Engineering student pursuing a career in the
+gaming industry as a technical artist. His goal is to combine his programming
+knowledge with his passion for animation to provide useful tools to other
+artists in making videogames.
 
-Hi, my name is Leonardo Marini, let me tell you a bit of myself:
-I graduared at University of Bologna as Doctor in Computer Science Engineering, and I'm currently doing a Master to specilize in Visualization and Interactive Graphics.
-I was born in Italy in 1997 and I consider myself to be an hybrid between a **developer** and an **artist**.
-Here you will find some of my works related to either of these subjetcs or, more likely, a combination of them.
+He started developing his passion for animation at the age of 17, when he
+discovered [Blender](https://www.blender.org/), in its current version 2.68,
+thanks to one of his teachers.
 
-I like fitness, dogs and 3D art.
+In his spare time, he enjoys role-playing games. Bamarin was the name he gave
+to his first character, and it continued being his nickname online. It doesn’t
+mean anything except that it includes part of his surname (Marini).
 
-Drop me a line at any of my socials (links in the upper left corner) or to my email (see the footer).
+If there’s anything else you’d like to know about him, don’t hesitate to send
+him an email!
 
