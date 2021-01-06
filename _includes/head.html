@@ -1,4 +1,4 @@
-<head>
+<head profile="http://www.w3.org/2005/10/profile">
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include analytics.html -%}
   {%- endif -%}
@@ -10,6 +10,9 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon"
+      type="image/png"
+      href="/assets/images/bit-icon.png">
   {%- feed_meta -%}
   {%- seo -%}
 </head>
