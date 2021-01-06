@@ -23,7 +23,7 @@ author: Leonardo Marini
 email: leonardo.marini.it@gmail.com
 repo: https://github.com/Bamarin/Bamarin.github.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Bamarin's Developer-blog and Portfolio: 
+  Bamarin Website, Developer-blog and Portfolio: 
   projects, updates, tech-art... all in one place.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bamarin.github.io"
