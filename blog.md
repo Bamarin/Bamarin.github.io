@@ -1,7 +1,7 @@
 ---
 title: Blog
 permalink: /developer/
-list_title: Projects
+list_title: Posts
 ---
 
 ## Platforms

@@ -4,7 +4,7 @@ date:   2019-06-06 10:28:20 +0100
 tags: web coding
 ---
 
-<img src="/assets/images/unistation-screen.png" />
+<img style="width:100%" src="/assets/images/unistation-screen.png" />
 
 This project consists of a website for a food delivery service.
 I made it together with 3 other people as a group project part of the Web
