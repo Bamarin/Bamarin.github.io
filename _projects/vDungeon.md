@@ -72,7 +72,7 @@ to circumvent this obstacle by using blandshaps on a simpler model.
 </div>
 
 
-### The team
+### The Team
 
 <div class="row">
   <div class="col m3 l2"></div>
