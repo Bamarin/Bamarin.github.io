@@ -69,6 +69,7 @@ to circumvent this obstacle by using blandshaps on a simpler model.
       <div class="card-stacked">
         <div class="card-content">
           <span class="card-title activator"><i class="material-icons right">expand_less</i>{{member.name}}</span>
+          <h6 class="activator">Show contributions</h6>
         </div>
         <div class="card-action">
           {% if member.github %}
