@@ -91,8 +91,7 @@ list_title: Posts
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <span class="card-title activator"><i class="material-icons right">expand_less</i>{{member.name}}</span>
-          <h6 class="activator">Show contributions</h6>
+          <span class="card-title activator"><i class="material-icons right">expand_less</i>{{member.name}}<h6 class="activator">Show contributions</h6></span>
         </div>
         <div class="card-action">
           {% if member.github %}
@@ -114,7 +113,7 @@ list_title: Posts
       </div>
       <div class="card-reveal blue-grey darken-2">
         <span class="card-title grey-text text-darken-4"><i class="material-icons right">expand_more</i>{{member.roles}}</span>
-        <p>{{member.content | markdownify}}</p>
+        <p style="text-align:justify;">{{member.content}}</p>
       </div>
     </div>
   </div>
