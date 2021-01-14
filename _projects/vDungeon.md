@@ -1,4 +1,5 @@
 ---
+layout: vdungeon
 title: VDungeon
 code: VDungeon
 category: vDungeon
