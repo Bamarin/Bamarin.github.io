@@ -1,4 +1,5 @@
 ---
+layout: vdungeon
 title: Related Work
 permalink: VDungeon/related/
 ---

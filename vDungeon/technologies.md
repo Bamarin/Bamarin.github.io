@@ -1,4 +1,5 @@
 ---
+layout: vdungeon
 title: Technologies
 permalink: VDungeon/technologies/
 ---

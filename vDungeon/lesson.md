@@ -1,4 +1,5 @@
 ---
+layout: vdungeon
 title: Lessons Learned
 permalink: VDungeon/lesson/
 ---

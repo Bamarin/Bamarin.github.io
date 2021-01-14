@@ -1,4 +1,5 @@
 ---
+layout: vdungeon
 title: Download
 permalink: VDungeon/download/
 ---
