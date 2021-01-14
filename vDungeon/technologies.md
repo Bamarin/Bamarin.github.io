@@ -69,17 +69,23 @@ permalink: VDungeon/technologies/
 </div>
 
 #### Mirror Networking
+<p style="text-align: justify;">
 Making a multiplayer game was a crucial part of this project, as we intended it to allow people to meet online. Since no one of us had experience in netcoding we chose to use a pre-existing API to simplify our work.
+</p>
 
+<p style="text-align: justify;">
 Mirror was a great choice because it offers high-level functions and it is well documented.
 We were able to create a shared environment, where every player can interact with it, and the changes are reflected on the rest of the group that is connected to the same “room”. It was also quite easy to setup a public server, so that multiple people can connect over the internet.
+</p>
 
+<p style="text-align: justify;">
 However, Mirror has its own flaws as well: being a predefined tool, ready to use, means that it is especially good to make a particular job, but it is a lot harder to make things work in an unusual way. In this case, it is perfect for creating a MMO game, where every player has the same role as each other. However we wanted to define two very distinct roles: Master and Player. Although we managed to differentiate them, this was very hard to achieve.
-
+</p>
 
 #### Main Menu Scene, UI and Particle Effects
+<p style="text-align: justify;">
 For better management purposes, the whole project is separated into two scenes, the main menu scene and the game scene. The main menu scene is built from a combination of a free pixel-style asset [Voxy Legends](https://assetstore.unity.com/packages/3d/environments/dungeons/voxy-legends-environment-pack-vol-1-95825) and our own world models, which is rendered in real-time with animated particle effects and baked global illumination with soft shadows to create a more realistic dungeon atmosphere.
-
+</p>
 
 
 <div class="row">
@@ -104,7 +110,9 @@ For better management purposes, the whole project is separated into two scenes, 
   </div>
 </div>
 
+<p style="text-align: justify;">
 From the main menu to the game scene, users' choice to be a master/player, and the IP address to connect need to be transferred together with the scene. To achieve this, Unity PlayerPrefs is used to store these data locally.
+</p>
 
 
 
@@ -151,12 +159,16 @@ The facial expression features extraction especially focused on tracking the ope
   </div>
 </div>
 
+<p style="text-align: justify;">
 This provides the primary base for the openness detection for both mouth and eyes. Based on it, a rotational invariance is added into computation by defining a reference distance which is insensitive to the rotation.
+</p>
 
 ![eye distance](/assets/images/vdungeon/eye-distance.jpg)
 ![formulas](/assets/images/vdungeon/formulas.png)
 
+<p style="text-align: justify;">
 Before mapping the face tracking data with the actual model, it can be observed that the detection results are quite noisy and unstable. Therefore a Kalman filter and a Median filter are implemented to reduce noise in image processing and stabilize the model animation. Kalman filter is used during landmarks tracking so that the history information is used rather than just relying on the detected location from the current frame alone. The Median filter is applied for further optimization by running through the signal entry by entry, replacing each entry with the median of neighboring entries in size of 5 frames.
+</p>
 
   <div class="row">
     <div class="col s12 m10 offset-m1">
@@ -167,7 +179,9 @@ Before mapping the face tracking data with the actual model, it can be observed 
   </div>
 
 #### Facial Animations
+<p style="text-align: justify;">
 The animation style used to animate the face is called Morph target animation. This is done by having a default neutral face and a bunch of premade expressions that the face can morph into. These premade expressions are called blend shapes and we have created one for each moveable facial  feature. The blend shapes allows us to interpolate between the neutral expression and the modified ones and since this can be done for all blend shapes at the same time it creates a large range of possible facial expressions.
+</p>
 
   <div class="row">
     <div class="col s12 m10 offset-m1">

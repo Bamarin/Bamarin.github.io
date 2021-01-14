@@ -27,7 +27,7 @@ list_title: Posts
 <div class="row">
   <div class="col s12 m7 offset-m5">
     <h3> Description </h3>
-    <p>
+    <p style="text-align: justify;">
     VDungeon is an online virtual tabletop RPG and chat room, where the players' faces are displayed as virtual avatars. Game masters can host rooms that their players can join over the internet.
     Our application uses your camera and OpenCV to detect and track facial features, then uses this information to animate a simplified 3D head model with your own movements and expressions.
     VDungeon also has several features to support tabletop roleplaying game mechanics, such as a board editor, interactive props and simulated dice rolling.
@@ -57,15 +57,18 @@ list_title: Posts
 <div class="row">
   <div class="col s12 m7 offset-m5">
     <h3> Challenges </h3>
-    <p>The biggest challenge was networking, as none of us was familiar with
-making a multiplayer game, it ended up being more complex than expected. In
-order to avoid implementing the netcode from a low level we based our
-application on a high level API, which made the development faster, but also
-required a well defined structure of the project, so modifying the structure of
-the project at a second stage took us quite some time.  At the beginning we
-struggled creating face animations that could be read by OpenCV. We were able
-to circumvent this obstacle by using blandshaps on a simpler model.
-    Finally, managing a project without ever being able to meet in person was not trivial. Communication plays a crucial role to avoid clashes of individual works.
+    <p style="text-align: justify;">
+    The biggest challenge was networking, as none of us was familiar with
+    making a multiplayer game, it ended up being more complex than expected. In
+    order to avoid implementing the netcode from a low level we based our
+    application on a high level API, which made the development faster, but also
+    required a well defined structure of the project, so modifying the structure of
+    the project at a second stage took us quite some time.  At the beginning we
+    struggled creating face animations that could be read by OpenCV. We were able
+    to circumvent this obstacle by using blandshaps on a simpler model.
+    Finally, managing a project without ever being able to meet in person was
+    not trivial. Communication plays a crucial role to avoid clashes of individual
+    works.
     </p>
 
   </div>
