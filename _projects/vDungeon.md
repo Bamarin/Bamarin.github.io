@@ -38,8 +38,14 @@ list_title: Posts
 <div class="row">
   <div class="col s12 m7 offset-m5">
     <h3> Challenges </h3>
-    The biggest challenge was networking, as none of us was familiar with making a multiplayer game, it ended up being more complex than expected.
-    At the beginning we struggled creating face animations that could be read by OpenCV. We were able to circumvent this obstacle by using blandshaps on a simpler model.
+    The biggest challenge was networking, as none of us was familiar with
+making a multiplayer game, it ended up being more complex than expected. In
+order to avoid implementing the netcode from a low level we based our
+application on a high level API, which made the development faster, but also
+required a well defined structure of the project, so modifying the structure of
+the project at a second stage took us quite some time.  At the beginning we
+struggled creating face animations that could be read by OpenCV. We were able
+to circumvent this obstacle by using blandshaps on a simpler model.
     Finally, managing a project without ever being able to meet in person was not trivial. Communication plays a crucial role to avoid clashes of individual works.
 
   </div>
