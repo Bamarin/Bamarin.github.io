@@ -37,3 +37,4 @@ him an email!
 {% if member.youtube %}
 <a href="https://youtube.com/{{ member.youtube| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg> Youtube</a>
 {% endif %}
+Here's my <a href="/assets/misc/bamarin.pub">Public Key</a> if you want to send me top-secret stuff
