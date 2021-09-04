@@ -38,3 +38,5 @@ him an email!
 <a href="https://youtube.com/{{ member.youtube| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg> Youtube</a>
 {% endif %}
 Here, take my <a href="/assets/misc/bamarin.pub">Public Key</a>, I'm sure you will make good use of it!
+
+fingerprint: 8DCC 9CC7 E7CE 60B6 8103  844F 28C6 2847 431E CB8D
