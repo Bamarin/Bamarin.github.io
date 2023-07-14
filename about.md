@@ -16,7 +16,7 @@ thanks to one of his teachers.
 
 In his spare time, he enjoys role-playing games. ***Bamarin*** is the name he gave
 to his first character, and it continued being his nickname online. It doesn’t
-mean anything except that it includes part of his surname (Marini).
+mean anything except that it includes part of his surname (Marini)
 
 If there’s anything else you’d like to know about him, don’t hesitate to send
 him an email!
