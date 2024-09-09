@@ -4,10 +4,10 @@
 
 layout: home
 list_title: Latest posts
-bg: "https://cdn-animation.artstation.com/p/video_sources/000/085/612/0001-1050.mp4"
+bg: "https://cdn.artstation.com/p/video_sources/000/085/612/0001-1050.mp4"
 bg-type: "video/mp4"
 ---
 ### Leonardo Marini
-#### Computer Science Engineering Student
-#### Technical Artist
+#### Software Engineer
+#### 3D Art Entusiast
 
