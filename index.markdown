@@ -8,6 +8,5 @@ bg: "https://cdn.artstation.com/p/video_sources/000/085/612/0001-1050.mp4"
 bg-type: "video/mp4"
 ---
 ### Leonardo Marini
-#### Software Engineer
-#### 3D Art Entusiast
+#### Software Engineer & Technical Artist
 
